@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta name="referrer" content="no-referrer" />
+    <title>zerviates</title>
+    <script src="assets/js/bootstrap.js"></script>
+    <link rel="icon" href="assets/images/favicon.ico" sizes="32x32" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="sh-page">
+      <header class="sh-nav">
+        <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~</span> <span class="p-sym">$</span> <span class="p-cmd">ls</span></p>
+        <nav class="sh-nav-list" aria-label="Primary">
+          <a href="index.html">profile/</a>
+          <a href="personal.html">personal/</a>
+          <a href="links.html">links/</a>
+          <button class="link" type="button" data-theme-toggle aria-label="switch theme">[L]light</button>
+        </nav>
+      </header>
+      <main id="main-content">
+        <section class="sh-section" data-section>
+          <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~</span> <span class="p-sym">$</span> <span class="p-cmd" data-type>cd unknown_path</span></p>
+          <div class="sh-output" data-output>
+            <p class="muted">cd: no such file or directory: unknown_path</p>
+            <h1 class="chip">page not found</h1>
+            <p><a href="index.html">return to the profile</a></p>
+          </div>
+        </section>
+        <section class="sh-section" data-section>
+          <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~</span> <span class="p-sym">$</span> <span class="p-cmd"></span><span class="cursor" aria-hidden="true"></span></p>
+        </section>
+      </main>
+      <footer class="sh-footer muted">2026 / <a href="imprint.html">imprint</a> / <a href="copyright.html">copyright</a></footer>
+    </div>
+
+    <!--
+  LEGACY DESIGN v2: the previous page markup (frames, cards, fastfetch window),
+  kept commented out on purpose. Its styles are the legacy block at the end of
+  src/styles.css, its behaviour the legacy block at the end of src/app.ts, and
+  git tag design-v2 holds the complete previous version.
+  To restore: put this markup back into <body> and turn every "<!~~" and "~~>"
+  back into HTML comment delimiters (they were neutralised so this comment can
+  enclose them).
+
+    <main>
+      <section class="hero page-hero frame" aria-labelledby="error-title">
+        <div class="window-bar"><span>404.txt</span><span>not found</span></div>
+        <div class="hero-body">
+          <p class="terminal-prompt"><span class="prompt-symbol">$</span> cd unknown_path</p>
+          <div class="terminal-output page-hero-output">
+            <p class="hero-kicker">NO SUCH FILE OR DIRECTORY</p>
+            <h1 id="error-title"><span>Page</span><span>not found.</span></h1>
+            <p class="page-lead"><a href="index.html">Return to the profile</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer frame"><p>2026 <span>/</span> <a href="imprint.html">impressum &amp; privacy</a> <span>/</span> <a href="copyright.html">copyright</a></p></footer>
+    -->
+  </body>
+</html>

@@ -1,0 +1,1 @@
+"use strict";(()=>{(()=>{document.documentElement.classList.add("js");try{let t=localStorage.getItem("jr-portfolio:theme");document.documentElement.dataset.theme=t==="light"?"light":"dark"}catch{}})();})();

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Jeremy's public links." />
+    <meta name="theme-color" content="#0d0e0f" />
+    <meta name="referrer" content="no-referrer" />
+    <title>zerviates</title>
+    <script src="assets/js/bootstrap.js"></script>
+    <link rel="icon" href="assets/images/favicon.ico" sizes="32x32" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="sh-page">
+      <header class="sh-nav">
+        <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~</span> <span class="p-sym">$</span> <span class="p-cmd">ls</span></p>
+        <nav class="sh-nav-list" aria-label="Primary">
+          <a href="index.html">profile/</a>
+          <a href="personal.html">personal/</a>
+          <a href="links.html" aria-current="page">links/</a>
+          <button class="link" type="button" data-theme-toggle aria-label="switch theme">[L]light</button>
+        </nav>
+      </header>
+      <main id="main-content">
+        <section class="sh-section" data-section>
+          <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~</span> <span class="p-sym">$</span> <span class="p-cmd" data-type>cat links.txt</span></p>
+          <div class="sh-output" data-output>
+            <h1 class="chip">links</h1>
+            <ul>
+              <li><span class="muted">github: </span><a href="https://github.com/zerviate" target="_blank" rel="noreferrer">github.com/zerviate -&gt;</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="sh-section" data-section>
+          <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~</span> <span class="p-sym">$</span> <span class="p-cmd"></span><span class="cursor" aria-hidden="true"></span></p>
+        </section>
+      </main>
+      <footer class="sh-footer muted">
+        2026 /
+        <a href="imprint.html">imprint</a>
+        /
+        <a href="copyright.html">copyright</a>
+      </footer>
+    </div>
+
+    <!--
+  LEGACY DESIGN v2: the previous page markup (frames, cards, fastfetch window),
+  kept commented out on purpose. Its styles are the legacy block at the end of
+  src/styles.css, its behaviour the legacy block at the end of src/app.ts, and
+  git tag design-v2 holds the complete previous version.
+  To restore: put this markup back into <body> and turn every "<!~~" and "~~>"
+  back into HTML comment delimiters (they were neutralised so this comment can
+  enclose them).
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header frame">
+      <a class="brand" href="index.html" aria-label="~/jr: Jeremy, profile page"><span class="brand-prompt" aria-hidden="true">~</span><span>/jr</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span>menu</span><span aria-hidden="true">[+]</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html" data-nav-link>profile</a><a href="personal.html" data-nav-link>personal</a><a class="is-active" href="links.html" aria-current="page" data-nav-link>links</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="[L]light: switch theme"><span aria-hidden="true" data-theme-glyph>[L]</span><span data-theme-label>light</span></button>
+    </header>
+    <main id="main-content">
+      <section class="hero links-panel frame" aria-labelledby="links-title">
+        <div class="window-bar"><span>links.txt</span><span>public</span></div>
+        <div class="hero-body">
+          <h1 id="links-title">Links</h1>
+          <div class="link-list">
+            <a href="https://github.com/zerviate" target="_blank" rel="noreferrer"><span>github</span><strong>github.com/zerviate</strong><i aria-hidden="true">-&gt;</i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer frame"><p>2026 <span>/</span> <a href="imprint.html">impressum &amp; privacy</a> <span>/</span> <a href="copyright.html">copyright</a></p></footer>
+    -->
+  </body>
+</html>

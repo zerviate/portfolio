@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-page",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "node scripts/build_assets.mjs css",
+    "build:js": "node scripts/build_assets.mjs js",
+    "build:fonts": "python scripts/build_fonts.py",
+    "build:site": "npm run build && node scripts/build_site.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:browser": "python scripts/test_portfolio.py",
+    "test:security": "node scripts/check_security.mjs",
+    "test:repository": "node scripts/check_repository.mjs",
+    "test": "npm run typecheck && npm run build:site && npm run test:security && npm run test:repository && npm run test:browser"
+  },
+  "devDependencies": {
+    "axe-core": "4.14.0",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2"
+  }
+}

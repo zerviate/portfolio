@@ -1,0 +1,38 @@
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.wrangler/
+playwright-report/
+test-results/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+# Personal documents (CVs, certificates) never belong in the public source tree.
+*.pdf
+# Identifying terms the security check guards against; never publish the list itself.
+.private-terms
+# Local credentials and private signing material must never enter public source.
+.npmrc
+.netrc
+_netrc
+.pypirc
+.ssh/
+.aws/
+.azure/
+.config/gcloud/
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*

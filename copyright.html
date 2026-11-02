@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Media attribution, copyright and open-source credits for zerviates." />
+    <meta name="theme-color" content="#0d0e0f" />
+    <meta name="referrer" content="no-referrer" />
+    <title>zerviates</title>
+    <script src="assets/js/bootstrap.js"></script>
+    <link rel="icon" href="assets/images/favicon.ico" sizes="32x32" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="sh-page">
+      <header class="sh-nav">
+        <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~</span> <span class="p-sym">$</span> <span class="p-cmd">ls</span></p>
+        <nav class="sh-nav-list" aria-label="Primary">
+          <a href="index.html">profile/</a>
+          <a href="personal.html">personal/</a>
+          <a href="links.html">links/</a>
+          <button class="link" type="button" data-theme-toggle aria-label="switch theme">[L]light</button>
+        </nav>
+      </header>
+      <main id="main-content">
+        <section class="sh-section" data-section>
+          <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~/legal</span> <span class="p-sym">$</span> <span class="p-cmd" data-type>cat credits.txt</span></p>
+          <div class="sh-output" data-output>
+            <h1 class="chip">copyright</h1>
+            <div class="sh-legal">
+            <p>I do not own the game covers, film or television posters, or Slam Dunk illustration
+            shown on this site, and I do not claim ownership of them. Copyright and trademarks
+            remain with their respective artists, creators, publishers and other rights holders.
+            Their inclusion expresses personal interests, not affiliation or endorsement.</p>
+            <h3>Credits</h3>
+            <ul class="credit-list">
+            <li>Game covers: <a href="https://www.igdb.com/" target="_blank" rel="noreferrer">IGDB</a> — SIGNALIS, Dishonored, NieR:Automata and Destiny.</li>
+            <li>Film and series posters: <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">TMDB</a> — Alien, Ghost in the Shell, Synecdoche, New York, Cure, Mr. Robot, Fooly Cooly, Vinland Saga and Slam Dunk.</li>
+            <li>Terminal illustration: Slam Dunk artwork by Takehiko Inoue.</li>
+            </ul>
+            <p>Platform names identify where the covers and posters were sourced; the platforms do
+            not necessarily own them. This site is not endorsed or certified by TMDB or IGDB.</p>
+            <p>If you are a rights holder with a correction or removal request, contact
+            <a href="mailto:devzerviate@proton.me">devzerviate@proton.me</a> with the page, image and
+            relevant rights information.</p>
+            <h3>Portfolio content and linked work</h3>
+            <p>Original portfolio text and custom code are by zerviate, 2026, except where third-party
+            material is identified. Linked personal repositories have their own licence terms.
+            Professional references describe collaborative work; client branding, content and
+            websites belong to their respective owners. No ownership of those websites is claimed.</p>
+            </div>
+          </div>
+        </section>
+        <section class="sh-section" data-section>
+          <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~/legal</span> <span class="p-sym">$</span> <span class="p-cmd" data-type>cat licenses.txt</span></p>
+          <div class="sh-output" data-output>
+            <h2 class="chip">open-source credits</h2>
+            <div class="sh-legal">
+            <ul class="credit-list">
+            <li>0xProto by the 0xType Project Authors, with Nerd Fonts additions — <a href="assets/fonts/LICENSE-0xProto-Nerd-Font.txt">SIL Open Font License 1.1</a>.</li>
+            <li>Departure Mono by Helena Zhang, with Nerd Fonts additions — <a href="assets/fonts/LICENSE-DepartureMono.txt">SIL Open Font License 1.1</a>. Both font families are locally subsetted as WOFF2 files.</li>
+            <li>Technology icons from Devicon — <a href="assets/icons/devicon/LICENSE">MIT licence</a>. The generic SQL symbol is a custom illustration.</li>
+            <li>Locally adapted CSS reset — <a href="assets/css/LICENSE-reset.txt">MIT licence</a>.</li>
+            </ul>
+            <p>The included licence files retain the original notices and govern the corresponding
+            components. Technology names and logos identify tools; they do not imply sponsorship.</p>
+            <p>Privacy and contact information: <a href="imprint.html">imprint</a>.</p>
+            </div>
+          </div>
+        </section>
+        <section class="sh-section" data-section>
+          <p class="prompt"><span class="p-user">jeremy@zerviate</span> <span class="p-path">~</span> <span class="p-sym">$</span> <span class="p-cmd"></span><span class="cursor" aria-hidden="true"></span></p>
+        </section>
+      </main>
+      <footer class="sh-footer muted">2026 / <a href="imprint.html">imprint</a> / <a href="copyright.html" aria-current="page">copyright</a></footer>
+    </div>
+
+    <!--
+  LEGACY DESIGN v2: the previous page markup (frames, cards, fastfetch window),
+  kept commented out on purpose. Its styles are the legacy block at the end of
+  src/styles.css, its behaviour the legacy block at the end of src/app.ts, and
+  git tag design-v2 holds the complete previous version.
+  To restore: put this markup back into <body> and turn every "<!~~" and "~~>"
+  back into HTML comment delimiters (they were neutralised so this comment can
+  enclose them).
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header frame">
+      <a class="brand" href="index.html" aria-label="~/jr: Jeremy, profile page"><span class="brand-prompt" aria-hidden="true">~</span><span>/jr</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span>menu</span><span aria-hidden="true">[+]</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html" data-nav-link>profile</a><a href="personal.html" data-nav-link>personal</a><a href="links.html" data-nav-link>links</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="[L]light: switch theme"><span aria-hidden="true" data-theme-glyph>[L]</span><span data-theme-label>light</span></button>
+    </header>
+    <main id="main-content">
+      <section class="hero page-hero frame" aria-labelledby="copyright-title">
+        <div class="window-bar"><span>credits.txt</span><span>copyright &amp; sources</span></div>
+        <div class="hero-body">
+          <p class="terminal-prompt"><span class="prompt-user">jeremy@zerviate</span><span class="prompt-path">:~/legal</span><span class="prompt-symbol">$</span><span>cat credits.txt</span></p>
+          <div class="terminal-output page-hero-output"><p class="hero-kicker">ACKNOWLEDGEMENTS</p><h1 id="copyright-title"><span>Credits</span><span>&amp; copyright.</span></h1></div>
+        </div>
+      </section>
+      <section class="section-block frame reveal" aria-labelledby="media-title" data-observe>
+        <header class="section-header"><div><p class="section-index">01 // MEDIA</p><h2 id="media-title">Images &amp; ownership.</h2></div></header>
+        <div class="legal-copy">
+          <p>I do not own the game covers, film or television posters, or Slam Dunk illustration
+            shown on this site, and I do not claim ownership of them. Copyright and trademarks
+            remain with their respective artists, creators, publishers and other rights holders.
+            Their inclusion expresses personal interests, not affiliation or endorsement.</p>
+          <h3>Credits</h3>
+          <ul class="credit-list">
+            <li>Game covers: <a href="https://www.igdb.com/" target="_blank" rel="noreferrer">IGDB</a> — SIGNALIS, Dishonored, NieR:Automata and Destiny.</li>
+            <li>Film and series posters: <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">TMDB</a> — Alien, Ghost in the Shell, Synecdoche, New York, Cure, Mr. Robot, Fooly Cooly, Vinland Saga and Slam Dunk.</li>
+            <li>Terminal illustration: Slam Dunk artwork by Takehiko Inoue.</li>
+          </ul>
+          <p>Platform names identify where the covers and posters were sourced; the platforms do
+            not necessarily own them. This site is not endorsed or certified by TMDB or IGDB.</p>
+          <p>If you are a rights holder with a correction or removal request, contact
+            <a href="mailto:devzerviate@proton.me">devzerviate@proton.me</a> with the page, image and
+            relevant rights information.</p>
+          <h3>Portfolio content and linked work</h3>
+          <p>Original portfolio text and custom code are by zerviate, 2026, except where third-party
+            material is identified. Linked personal repositories have their own licence terms.
+            Professional references describe collaborative work; client branding, content and
+            websites belong to their respective owners. No ownership of those websites is claimed.</p>
+        </div>
+      </section>
+      <section class="section-block frame reveal" aria-labelledby="software-title" data-observe>
+        <header class="section-header"><div><p class="section-index">02 // SOFTWARE</p><h2 id="software-title">Open-source credits.</h2></div></header>
+        <div class="legal-copy">
+          <ul class="credit-list">
+            <li>0xProto by the 0xType Project Authors, with Nerd Fonts additions — <a href="assets/fonts/LICENSE-0xProto-Nerd-Font.txt">SIL Open Font License 1.1</a>.</li>
+            <li>Departure Mono by Helena Zhang, with Nerd Fonts additions — <a href="assets/fonts/LICENSE-DepartureMono.txt">SIL Open Font License 1.1</a>. Both font families are locally subsetted as WOFF2 files.</li>
+            <li>Technology icons from Devicon — <a href="assets/icons/devicon/LICENSE">MIT licence</a>. The generic SQL symbol is a custom illustration.</li>
+            <li>Locally adapted CSS reset — <a href="assets/css/LICENSE-reset.txt">MIT licence</a>.</li>
+          </ul>
+          <p>The included licence files retain the original notices and govern the corresponding
+            components. Technology names and logos identify tools; they do not imply sponsorship.</p>
+          <p>Privacy and contact information: <a href="imprint.html">impressum &amp; privacy</a>.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer frame"><p>2026 <span>/</span> <a href="imprint.html">impressum &amp; privacy</a> <span>/</span> <a href="copyright.html" aria-current="page">copyright</a></p></footer>
+    -->
+  </body>
+</html>

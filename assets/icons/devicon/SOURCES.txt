@@ -1,0 +1,11 @@
+Existing Devicon icons retain the accompanying MIT licence.
+
+Added Zed, Linux and Windows 11 icons from devicons/devicon:
+Commit: 4fbcc685c9a85434bc01b1c236c9076f54806236
+https://github.com/devicons/devicon/tree/4fbcc685c9a85434bc01b1c236c9076f54806236/icons
+
+zed.svg: zed/zed-original.svg
+linux.svg: linux/linux-original.svg
+windows.svg: windows11/windows11-original.svg
+
+Files are stored locally and displayed in monochrome through the site's CSS.
